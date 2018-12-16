@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Cloister Black';
+    src: url('fonts/CloisterBlack.ttf');
+    src: local('Cloister Black'), url('fonts/CloisterBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sketch Gothic';
+    src: url('fonts/SketchGothic.ttf');
+    src: local('Sketch Gothic'), url('fonts/SketchGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.subhead {
+  padding: 0px 3em 0px 3em;
+}
+
+.center {
+  justify-content: center;
+}
+body, p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.15em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Sketch Gothic', 'Cloister Black',
+               'Old English MT', 'Open Sans Condensed'
+}
+.container {
+  max-width: 500px;
+}
+.maincol {
+  margin-top: 5%;
+  max-width: 400px;
+  text-align: center
+}
+
+
+#next-up {
+  width: 100%;
+  padding: 3em 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  border-radius: 50%;
+  border: 1px solid black;
+  max-width: 250px;
+}
