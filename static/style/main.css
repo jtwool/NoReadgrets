@@ -1,17 +1,7 @@
 @font-face {
-    font-family: 'Cloister Black';
-    src: url('fonts/CloisterBlack.ttf');
-    src: local('Cloister Black'), url('fonts/CloisterBlack.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sketch Gothic';
-    src: url('fonts/SketchGothic.ttf');
-    src: local('Sketch Gothic'), url('fonts/SketchGothic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Sketch Gothic School';
+    src: local("Sketch Gothic School")
+         url('https://s3.us-east-2.amazonaws.com/readgrets-public-bucket/SketchGothic.ttf') format('truetype');
 }
 
 .subhead {
@@ -31,8 +21,7 @@ h1 {
   font-size: 4em;
   font-weight: 400;
   text-transform: capitalize;
-  font-family: 'Sketch Gothic', 'Cloister Black',
-               'Old English MT', 'Open Sans Condensed'
+  font-family: 'Sketch Gothic School', 'Open Sans Condensed', 'Sans Serif';
 }
 .container {
   max-width: 500px;
